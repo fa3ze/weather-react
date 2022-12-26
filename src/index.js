@@ -14,5 +14,19 @@ root.render(
     <div className="App">
       <Weather />
     </div>
+    <div class="personal-info">
+      This project was coded by
+      <a
+        href="https://www.linkedin.com/in/faeze-azimi-50a931255"
+        target="_blank"
+      >
+        Faeze Azimi
+      </a>
+      and is open-sourced on
+      <a href="https://github.com/fa3ze/Faeze-Weather-App" target="_blank">
+        GitHub
+      </a>
+      .
+    </div>
   </StrictMode>
 );
