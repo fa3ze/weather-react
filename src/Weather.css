@@ -1,0 +1,50 @@
+.Weather .temperature-description {
+  padding: 20px;
+}
+.Weather .degrees {
+  font-size: 16px;
+  position: relative;
+  top: -14px;
+}
+.Weather .current-icon {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  top: 0;
+  left: 53px;
+}
+.Weather .description {
+  position: relative;
+  top: 0px;
+  left: 85px;
+}
+.Weather a:link {
+  color: #ec6e4c;
+  text-decoration: none;
+}
+.Weather a:visited {
+  color: #6c77a3;
+}
+.Weather .btn {
+  background-color: #6c77a3;
+  border-color: #6c77a3;
+}
+.Weather .btn:hover {
+  background-color: #ec6e4c;
+  border-color: #ec6e4c;
+}
+.Weather .degrees .active {
+  color: black;
+  cursor: default;
+}
+.Weather.degrees .active:hover {
+  text-decoration: none;
+}
+
+.Weather .feels-degrees .feels-active {
+  color: black;
+  cursor: default;
+}
+.Weather .feels-degrees .feels-active:hover {
+  text-decoration: none;
+}

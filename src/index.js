@@ -1,14 +1,18 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import App from "./App";
-import reportWebVitals from "./reportWebVitals";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+import Weather from "./Weather";
+
+import "./Weather.css";
+import "./App.css";
+
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+
 root.render(
-  <React.StrictMode>
-    <App city="paris" />
-  </React.StrictMode>
+  <StrictMode>
+    <div className="App">
+      <Weather />
+    </div>
+  </StrictMode>
 );
-
-reportWebVitals();
