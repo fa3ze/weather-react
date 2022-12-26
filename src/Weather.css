@@ -37,14 +37,8 @@
   color: black;
   cursor: default;
 }
-.Weather.degrees .active:hover {
-  text-decoration: none;
-}
 
 .Weather .feels-degrees .feels-active {
   color: black;
   cursor: default;
-}
-.Weather .feels-degrees .feels-active:hover {
-  text-decoration: none;
 }

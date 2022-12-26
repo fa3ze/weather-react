@@ -28,6 +28,7 @@ li:first-letter {
   text-transform: capitalize;
 }
 .personal-info {
-  text-align: center;
+  position: relative;
+  left: 40px;
   font-size: 12px;
 }

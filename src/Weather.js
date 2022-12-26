@@ -86,7 +86,6 @@ export default function Weather() {
             <ul className="temperature-description">
               <li className="temperature">
                 <h1>
-                  <span></span>
                   <span className="degrees">
                     <a href="#" className="active">
                       {Math.round(weather.temperature)} °C|
@@ -108,20 +107,6 @@ export default function Weather() {
               <li>{Math.round(weather.wind)}km/h</li>
             </ul>
           </div>
-        </div>
-        <div class="personal-info">
-          This project was coded by
-          <a
-            href="https://www.linkedin.com/in/faeze-azimi-50a931255"
-            target="_blank"
-          >
-            Faeze Azimi
-          </a>
-          and is open-sourced on
-          <a href="https://github.com/fa3ze/Faeze-Weather-App" target="_blank">
-            GitHub
-          </a>
-          .
         </div>
       </div>
     );

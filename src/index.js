@@ -23,7 +23,7 @@ root.render(
         Faeze Azimi
       </a>
       and is open-sourced on
-      <a href="https://github.com/fa3ze/Faeze-Weather-App" target="_blank">
+      <a href="https://github.com/fa3ze/weather-react" target="_blank">
         GitHub
       </a>
       .
