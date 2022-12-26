@@ -1,12 +1,10 @@
-import react, { useState } from "react";
+import React, { useState } from "react";
 import "./Weather.css";
 import axios from "axios";
 import { Bars } from "react-loader-spinner";
 
 export default function Weather() {
   let weatherData = {
-    farenheitTemp: 20,
-    feelsTempf: 18,
     date: "Tuesday 02:00",
   };
   const [city, setCity] = useState("");
@@ -86,25 +84,27 @@ export default function Weather() {
             <ul className="temperature-description">
               <li className="temperature">
                 <h1>
-                  <span className="degrees">
-                    <a href="#" className="active">
-                      {Math.round(weather.temperature)} °C|
-                    </a>
-                    <a href="#">{weatherData.farenheitTemp}°F</a>
-                  </span>
+                  <button className="active">
+                    {Math.round(weather.temperature)} °C|
+                  </button>
+                  <button>
+                    {Math.round((Math.round(weather.temperature) * 9) / 5 + 32)}
+                    °F
+                  </button>
                 </h1>
               </li>
               <li>
                 feels like:
-                <span className="feels-degrees">
-                  <a href="#" className="feels-active">
-                    {Math.round(weather.feelsTemp)} °C|{" "}
-                  </a>
-                  <a href="#">{weatherData.feelsTempf}°F</a>
-                </span>
+                <button className="feels-active">
+                  {Math.round(weather.feelsTemp)} °C|{" "}
+                </button>
+                <button>
+                  {" "}
+                  {Math.round((Math.round(weather.feelsTemp) * 9) / 5 + 32)}°F
+                </button>
               </li>
               <li>Humidity:{weather.humidity}%</li>
-              <li>{Math.round(weather.wind)}km/h</li>
+              <li>Wind: {Math.round(weather.wind)}km/h</li>
             </ul>
           </div>
         </div>

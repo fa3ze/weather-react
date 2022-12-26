@@ -5,6 +5,7 @@ import Weather from "./Weather";
 
 import "./Weather.css";
 import "./App.css";
+import "./Weather.css";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
@@ -19,11 +20,16 @@ root.render(
       <a
         href="https://www.linkedin.com/in/faeze-azimi-50a931255"
         target="_blank"
+        rel="noreferrer"
       >
         Faeze Azimi
       </a>
       and is open-sourced on
-      <a href="https://github.com/fa3ze/weather-react" target="_blank">
+      <a
+        href="https://github.com/fa3ze/weather-react"
+        target="_blank"
+        rel="noreferrer"
+      >
         GitHub
       </a>
       .

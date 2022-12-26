@@ -1,3 +1,7 @@
+button {
+  background-color: #aee4f0;
+  border: none;
+}
 .Weather .temperature-description {
   padding: 20px;
 }
@@ -18,11 +22,11 @@
   top: 0px;
   left: 85px;
 }
-.Weather a:link {
+a:link {
   color: #ec6e4c;
   text-decoration: none;
 }
-.Weather a:visited {
+a:visited {
   color: #6c77a3;
 }
 .Weather .btn {
@@ -32,13 +36,4 @@
 .Weather .btn:hover {
   background-color: #ec6e4c;
   border-color: #ec6e4c;
-}
-.Weather .degrees .active {
-  color: black;
-  cursor: default;
-}
-
-.Weather .feels-degrees .feels-active {
-  color: black;
-  cursor: default;
 }
