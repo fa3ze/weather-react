@@ -14,7 +14,7 @@ root.render(
     <div className="App">
       <Weather />
     </div>
-    <div class="personal-info">
+    <div className="personal-info">
       This project was coded by
       <a
         href="https://www.linkedin.com/in/faeze-azimi-50a931255"
